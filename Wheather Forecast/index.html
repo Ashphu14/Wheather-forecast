@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Weather Forecast App</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Weather Forecast</h1>
+    </header>
+
+    <nav class="navbar">
+        <input class="city-input" type="text" placeholder="Enter city name">
+        <button class="search-btn">Search</button>
+        <button class="location-btn">Use Current Location</button>
+        <select class="recent-searches-dropdown">
+            <option value="" disabled selected>Recent Searches</option>
+        </select>
+    </nav>
+
+    <div class="container">
+        <div class="weather-data">
+            <div class="current-weather">
+                <h2>City Name (Country)</h2>
+                <div class="details">
+                    <h3>Temperature: <span class="temperature">__°C</span></h3>
+                    <h3>Wind: <span class="wind">__ M/S</span></h3>
+                    <h3>Humidity: <span class="humidity">__%</span></h3>
+                </div>
+            </div>
+            <div class="days-forecast">
+                <h2>5-Day Forecast</h2>
+                <ul class="weather-cards">
+                    <li class="card">
+                        <h3>Day</h3>
+                        <img src="" alt="Weather Icon">
+                        <h4>Temp: <span class="temp">__°C</span></h4>
+                        <h4>Wind: <span class="wind">__ M/S</span></h4>
+                        <h4>Humidity: <span class="humidity">__%</span></h4>
+                    </li>
+                    <li class="card">
+                        <h3>Day</h3>
+                        <img src="" alt="Weather Icon">
+                        <h4>Temp: <span class="temp">__°C</span></h4>
+                        <h4>Wind: <span class="wind">__ M/S</span></h4>
+                        <h4>Humidity: <span class="humidity">__%</span></h4>
+                    </li>
+                    <li class="card">
+                        <h3>Day</h3>
+                        <img src="" alt="Weather Icon">
+                        <h4>Temp: <span class="temp">__°C</span></h4>
+                        <h4>Wind: <span class="wind">__ M/S</span></h4>
+                        <h4>Humidity: <span class="humidity">__%</span></h4>
+                    </li>
+                    <li class="card">
+                        <h3>Day</h3>
+                        <img src="" alt="Weather Icon">
+                        <h4>Temp: <span class="temp">__°C</span></h4>
+                        <h4>Wind: <span class="wind">__ M/S</span></h4>
+                        <h4>Humidity: <span class="humidity">__%</span></h4>
+                    </li>
+                    <li class="card">
+                        <h3>Day</h3>
+                        <img src="" alt="Weather Icon">
+                        <h4>Temp: <span class="temp">__°C</span></h4>
+                        <h4>Wind: <span class="wind">__ M/S</span></h4>
+                        <h4>Humidity: <span class="humidity">__%</span></h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
